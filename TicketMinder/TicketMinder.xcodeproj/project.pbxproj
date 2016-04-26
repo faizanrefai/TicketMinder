@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* TicketMinderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TicketMinderAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* TicketMinderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* TicketMinderViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* TicketMinderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* TicketMinderViewController.m */; };
+		5E322A19153D778200EC7E5B /* backBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E322A13153D778200EC7E5B /* backBtn.png */; };
+		5E322A1A153D778200EC7E5B /* backBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E322A14153D778200EC7E5B /* backBtn@2x.png */; };
+		5E322A1B153D778200EC7E5B /* editBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E322A15153D778200EC7E5B /* editBtn.png */; };
+		5E322A1C153D778200EC7E5B /* editBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E322A16153D778200EC7E5B /* editBtn@2x.png */; };
+		5E322A1D153D778200EC7E5B /* mailBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E322A17153D778200EC7E5B /* mailBtn.png */; };
+		5E322A1E153D778200EC7E5B /* mailBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E322A18153D778200EC7E5B /* mailBtn@2x.png */; };
+		5E322A21153D79D800EC7E5B /* change.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E322A1F153D79D800EC7E5B /* change.png */; };
+		5E322A22153D79D800EC7E5B /* change@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E322A20153D79D800EC7E5B /* change@2x.png */; };
+		5E338D00153EBF2400BD51D0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E338CFD153EBF2400BD51D0 /* Icon.png */; };
+		5E338D01153EBF2400BD51D0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E338CFE153EBF2400BD51D0 /* Icon@2x.png */; };
+		5E338D02153EBF2400BD51D0 /* itunesArtWork in Resources */ = {isa = PBXBuildFile; fileRef = 5E338CFF153EBF2400BD51D0 /* itunesArtWork */; };
+		5E59E1491527376900FFF98F /* AddTicketDatabase in Resources */ = {isa = PBXBuildFile; fileRef = 5E59E1481527376900FFF98F /* AddTicketDatabase */; };
+		5E59E1681527379500FFF98F /* DAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E59E14E1527379400FFF98F /* DAL.m */; };
+		5E59E16C1527379500FFF98F /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E59E1551527379400FFF98F /* NSString+Extensions.m */; };
+		5E59E1791527398500FFF98F /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E59E1781527398500FFF98F /* libsqlite3.0.dylib */; };
+		5E88D4EA152DBABE008A20A1 /* CheckMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E88D4E9152DBABE008A20A1 /* CheckMark.png */; };
+		5E88D4EE152DBB74008A20A1 /* segmentBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E88D4EC152DBB74008A20A1 /* segmentBack.png */; };
+		5E88D4EF152DBB74008A20A1 /* segmentBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E88D4ED152DBB74008A20A1 /* segmentBack@2x.png */; };
+		5E88D4F2152DBFD5008A20A1 /* cameraBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E88D4F0152DBFD5008A20A1 /* cameraBack.png */; };
+		5E88D4F3152DBFD5008A20A1 /* cameraBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E88D4F1152DBFD5008A20A1 /* cameraBack@2x.png */; };
+		5E8E2E751532A61900BDC75E /* ExportDataBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8E2E731532A61900BDC75E /* ExportDataBtn.png */; };
+		5E8E2E761532A61900BDC75E /* ExportDataBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8E2E741532A61900BDC75E /* ExportDataBtn@2x.png */; };
+		5E8E2E781532AFD900BDC75E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8E2E771532AFD900BDC75E /* MobileCoreServices.framework */; };
+		5E8EFF201529C041005F5650 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8EFF1F1529C041005F5650 /* QuartzCore.framework */; };
+		5E916A5E1542A7A3005CB2EA /* Dialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E916A5D1542A7A3005CB2EA /* Dialog.m */; };
+		5E916A6B1542AA1F005CB2EA /* closeBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E916A6A1542AA1F005CB2EA /* closeBtn.png */; };
+		5E916A711542AD0A005CB2EA /* Terms & Conditions.doc in Resources */ = {isa = PBXBuildFile; fileRef = 5E916A701542AD0A005CB2EA /* Terms & Conditions.doc */; };
+		5E9EB0F8152C4D0100C210C1 /* TicketDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB0F6152C4D0100C210C1 /* TicketDetailView.m */; };
+		5E9EB0F9152C4D0100C210C1 /* TicketDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E9EB0F7152C4D0100C210C1 /* TicketDetailView.xib */; };
+		5EA33DAB152AC88D00DEED44 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA33DAA152AC88D00DEED44 /* MessageUI.framework */; };
+		5EA44CFE1526C95300112368 /* ViewTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA44CFC1526C95300112368 /* ViewTicket.m */; };
+		5EA44CFF1526C95300112368 /* ViewTicket.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EA44CFD1526C95300112368 /* ViewTicket.xib */; };
+		5EA44D041526C96600112368 /* BackUpData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA44D021526C96600112368 /* BackUpData.m */; };
+		5EA44D051526C96600112368 /* BackUpData.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EA44D031526C96600112368 /* BackUpData.xib */; };
+		5EA44D081526D7E900112368 /* Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EA44D071526D7E900112368 /* Camera.png */; };
+		5EB1136315455AEA00BA54CE /* Terms & Conditions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5EB1136215455AEA00BA54CE /* Terms & Conditions.pdf */; };
+		5EB1136515456CAE00BA54CE /* btnAccept.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB1136415456CAE00BA54CE /* btnAccept.png */; };
+		5EB113671545900500BA54CE /* shareData.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB113661545900500BA54CE /* shareData.png */; };
+		5EB113691545900E00BA54CE /* shareData@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB113681545900E00BA54CE /* shareData@2x.png */; };
+		5EBDC389152D74BB002F7B89 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC387152D74BB002F7B89 /* Default.png */; };
+		5EBDC38A152D74BB002F7B89 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC388152D74BB002F7B89 /* Default@2x.png */; };
+		5EBDC394152D79EA002F7B89 /* AddTicketBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC390152D79E9002F7B89 /* AddTicketBtn.png */; };
+		5EBDC395152D79EA002F7B89 /* AddTicketBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC391152D79E9002F7B89 /* AddTicketBtn@2x.png */; };
+		5EBDC396152D79EA002F7B89 /* ViewTickeBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC392152D79E9002F7B89 /* ViewTickeBtn.png */; };
+		5EBDC397152D79EA002F7B89 /* ViewTickeBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC393152D79EA002F7B89 /* ViewTickeBtn@2x.png */; };
+		5EBDC3A9152D825E002F7B89 /* BtnBackgroundBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC3A7152D825E002F7B89 /* BtnBackgroundBig.png */; };
+		5EBDC3AA152D825E002F7B89 /* BtnBackgroundBig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC3A8152D825E002F7B89 /* BtnBackgroundBig@2x.png */; };
+		5EBDC3AD152D835C002F7B89 /* SmallBtnBackgrnd.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC3AB152D835C002F7B89 /* SmallBtnBackgrnd.png */; };
+		5EBDC3AE152D835C002F7B89 /* SmallBtnBackgrnd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC3AC152D835C002F7B89 /* SmallBtnBackgrnd@2x.png */; };
+		5EBDC3B3152D94EE002F7B89 /* cameraLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC3AF152D94EE002F7B89 /* cameraLeft.png */; };
+		5EBDC3B4152D94EE002F7B89 /* cameraLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC3B0152D94EE002F7B89 /* cameraLeft@2x.png */; };
+		5EBDC3B5152D94EE002F7B89 /* CameraRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC3B1152D94EE002F7B89 /* CameraRight.png */; };
+		5EBDC3B6152D94EE002F7B89 /* CameraRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC3B2152D94EE002F7B89 /* CameraRight@2x.png */; };
+		5EBDC3B9152D97D4002F7B89 /* TicketDtlBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC3B7152D97D4002F7B89 /* TicketDtlBack.png */; };
+		5EBDC3BA152D97D4002F7B89 /* TicketDtlBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC3B8152D97D4002F7B89 /* TicketDtlBack@2x.png */; };
+		5EBDC3BC152D9DE5002F7B89 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC3BB152D9DE5002F7B89 /* arrow.png */; };
+		5EBDC3BF152DAFAC002F7B89 /* HomeBackGrnd.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC3BD152DAFAC002F7B89 /* HomeBackGrnd.png */; };
+		5EBDC3C0152DAFAC002F7B89 /* HomeBackGrnd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDC3BE152DAFAC002F7B89 /* HomeBackGrnd@2x.png */; };
+		5EF19AD91525F424007E8BC2 /* AddTicketView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF19AD71525F424007E8BC2 /* AddTicketView.m */; };
+		5EF19ADA1525F424007E8BC2 /* AddTicketView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EF19AD81525F424007E8BC2 /* AddTicketView.xib */; };
+		5EFE7DEF152EC27C00D684B8 /* NavBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFE7DED152EC27C00D684B8 /* NavBar.png */; };
+		5EFE7DF0152EC27C00D684B8 /* NavBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFE7DEE152EC27C00D684B8 /* NavBar@2x.png */; };
+		5EFE7DF4152EC3F800D684B8 /* AddTicNav.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFE7DF2152EC3F800D684B8 /* AddTicNav.png */; };
+		5EFE7DF5152EC3F800D684B8 /* AddTicNav@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFE7DF3152EC3F800D684B8 /* AddTicNav@2x.png */; };
+		5EFE7DF9152EC5AD00D684B8 /* ticket_details.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFE7DF8152EC5AD00D684B8 /* ticket_details.png */; };
+		5EFE7DFC152EC67F00D684B8 /* SaveBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFE7DFA152EC67F00D684B8 /* SaveBtn@2x.png */; };
+		5EFE7DFD152EC67F00D684B8 /* SaveBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFE7DFB152EC67F00D684B8 /* SaveBtn.png */; };
+		5EFE7E06152EC97700D684B8 /* ViewTict.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFE7E04152EC97700D684B8 /* ViewTict.png */; };
+		5EFE7E07152EC97700D684B8 /* ViewTict@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFE7E05152EC97700D684B8 /* ViewTict@2x.png */; };
+		5EFE7E0A152EC9F700D684B8 /* blue button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFE7E08152EC9F700D684B8 /* blue button.png */; };
+		5EFE7E0B152EC9F700D684B8 /* blue button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFE7E09152EC9F700D684B8 /* blue button@2x.png */; };
+		5EFE7E17152EF66900D684B8 /* CellBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFE7E15152EF66900D684B8 /* CellBack@2x.png */; };
+		5EFE7E19152EF93E00D684B8 /* CellBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFE7E18152EF93E00D684B8 /* CellBack.png */; };
+		5EFE7E1D152F003000D684B8 /* TicketImageFullView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE7E1B152F003000D684B8 /* TicketImageFullView.m */; };
+		5EFE7E1E152F003000D684B8 /* TicketImageFullView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EFE7E1C152F003000D684B8 /* TicketImageFullView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TicketMinderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketMinderAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TicketMinderAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketMinderAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* TicketMinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketMinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* TicketMinderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TicketMinderViewController.xib; path = ../TicketMinderViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* TicketMinderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketMinderViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* TicketMinderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketMinderViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* TicketMinder_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketMinder_Prefix.pch; sourceTree = "<group>"; };
+		5E322A13153D778200EC7E5B /* backBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backBtn.png; sourceTree = "<group>"; };
+		5E322A14153D778200EC7E5B /* backBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backBtn@2x.png"; sourceTree = "<group>"; };
+		5E322A15153D778200EC7E5B /* editBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editBtn.png; sourceTree = "<group>"; };
+		5E322A16153D778200EC7E5B /* editBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "editBtn@2x.png"; sourceTree = "<group>"; };
+		5E322A17153D778200EC7E5B /* mailBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mailBtn.png; sourceTree = "<group>"; };
+		5E322A18153D778200EC7E5B /* mailBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mailBtn@2x.png"; sourceTree = "<group>"; };
+		5E322A1F153D79D800EC7E5B /* change.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = change.png; sourceTree = "<group>"; };
+		5E322A20153D79D800EC7E5B /* change@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "change@2x.png"; sourceTree = "<group>"; };
+		5E338CFD153EBF2400BD51D0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		5E338CFE153EBF2400BD51D0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		5E338CFF153EBF2400BD51D0 /* itunesArtWork */ = {isa = PBXFileReference; lastKnownFileType = file; path = itunesArtWork; sourceTree = "<group>"; };
+		5E59E1481527376900FFF98F /* AddTicketDatabase */ = {isa = PBXFileReference; lastKnownFileType = file; path = AddTicketDatabase; sourceTree = "<group>"; };
+		5E59E14D1527379400FFF98F /* DAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAL.h; path = Classes/DAL.h; sourceTree = "<group>"; };
+		5E59E14E1527379400FFF98F /* DAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAL.m; path = Classes/DAL.m; sourceTree = "<group>"; };
+		5E59E1541527379400FFF98F /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Extensions.h"; path = "Classes/NSString+Extensions.h"; sourceTree = "<group>"; };
+		5E59E1551527379400FFF98F /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extensions.m"; path = "Classes/NSString+Extensions.m"; sourceTree = "<group>"; };
+		5E59E1781527398500FFF98F /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		5E88D4E9152DBABE008A20A1 /* CheckMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckMark.png; sourceTree = "<group>"; };
+		5E88D4EC152DBB74008A20A1 /* segmentBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segmentBack.png; sourceTree = "<group>"; };
+		5E88D4ED152DBB74008A20A1 /* segmentBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segmentBack@2x.png"; sourceTree = "<group>"; };
+		5E88D4F0152DBFD5008A20A1 /* cameraBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraBack.png; sourceTree = "<group>"; };
+		5E88D4F1152DBFD5008A20A1 /* cameraBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cameraBack@2x.png"; sourceTree = "<group>"; };
+		5E8E2E731532A61900BDC75E /* ExportDataBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExportDataBtn.png; sourceTree = "<group>"; };
+		5E8E2E741532A61900BDC75E /* ExportDataBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ExportDataBtn@2x.png"; sourceTree = "<group>"; };
+		5E8E2E771532AFD900BDC75E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5E8EFF1F1529C041005F5650 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5E916A5C1542A7A3005CB2EA /* Dialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dialog.h; sourceTree = "<group>"; };
+		5E916A5D1542A7A3005CB2EA /* Dialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dialog.m; sourceTree = "<group>"; };
+		5E916A6A1542AA1F005CB2EA /* closeBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeBtn.png; sourceTree = "<group>"; };
+		5E916A701542AD0A005CB2EA /* Terms & Conditions.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Terms & Conditions.doc"; sourceTree = "<group>"; };
+		5E9EB0F5152C4D0000C210C1 /* TicketDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketDetailView.h; sourceTree = "<group>"; };
+		5E9EB0F6152C4D0100C210C1 /* TicketDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketDetailView.m; sourceTree = "<group>"; };
+		5E9EB0F7152C4D0100C210C1 /* TicketDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TicketDetailView.xib; sourceTree = "<group>"; };
+		5EA33DAA152AC88D00DEED44 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5EA44CFB1526C95300112368 /* ViewTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTicket.h; sourceTree = "<group>"; };
+		5EA44CFC1526C95300112368 /* ViewTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTicket.m; sourceTree = "<group>"; };
+		5EA44CFD1526C95300112368 /* ViewTicket.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewTicket.xib; sourceTree = "<group>"; };
+		5EA44D011526C96600112368 /* BackUpData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackUpData.h; sourceTree = "<group>"; };
+		5EA44D021526C96600112368 /* BackUpData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackUpData.m; sourceTree = "<group>"; };
+		5EA44D031526C96600112368 /* BackUpData.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackUpData.xib; sourceTree = "<group>"; };
+		5EA44D071526D7E900112368 /* Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera.png; sourceTree = "<group>"; };
+		5EB1136215455AEA00BA54CE /* Terms & Conditions.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Terms & Conditions.pdf"; sourceTree = "<group>"; };
+		5EB1136415456CAE00BA54CE /* btnAccept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnAccept.png; sourceTree = "<group>"; };
+		5EB113661545900500BA54CE /* shareData.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareData.png; sourceTree = "<group>"; };
+		5EB113681545900E00BA54CE /* shareData@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shareData@2x.png"; sourceTree = "<group>"; };
+		5EBDC387152D74BB002F7B89 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5EBDC388152D74BB002F7B89 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5EBDC390152D79E9002F7B89 /* AddTicketBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddTicketBtn.png; sourceTree = "<group>"; };
+		5EBDC391152D79E9002F7B89 /* AddTicketBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AddTicketBtn@2x.png"; sourceTree = "<group>"; };
+		5EBDC392152D79E9002F7B89 /* ViewTickeBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ViewTickeBtn.png; sourceTree = "<group>"; };
+		5EBDC393152D79EA002F7B89 /* ViewTickeBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ViewTickeBtn@2x.png"; sourceTree = "<group>"; };
+		5EBDC3A7152D825E002F7B89 /* BtnBackgroundBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BtnBackgroundBig.png; sourceTree = "<group>"; };
+		5EBDC3A8152D825E002F7B89 /* BtnBackgroundBig@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BtnBackgroundBig@2x.png"; sourceTree = "<group>"; };
+		5EBDC3AB152D835C002F7B89 /* SmallBtnBackgrnd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmallBtnBackgrnd.png; sourceTree = "<group>"; };
+		5EBDC3AC152D835C002F7B89 /* SmallBtnBackgrnd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SmallBtnBackgrnd@2x.png"; sourceTree = "<group>"; };
+		5EBDC3AF152D94EE002F7B89 /* cameraLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraLeft.png; sourceTree = "<group>"; };
+		5EBDC3B0152D94EE002F7B89 /* cameraLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cameraLeft@2x.png"; sourceTree = "<group>"; };
+		5EBDC3B1152D94EE002F7B89 /* CameraRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CameraRight.png; sourceTree = "<group>"; };
+		5EBDC3B2152D94EE002F7B89 /* CameraRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraRight@2x.png"; sourceTree = "<group>"; };
+		5EBDC3B7152D97D4002F7B89 /* TicketDtlBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TicketDtlBack.png; sourceTree = "<group>"; };
+		5EBDC3B8152D97D4002F7B89 /* TicketDtlBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TicketDtlBack@2x.png"; sourceTree = "<group>"; };
+		5EBDC3BB152D9DE5002F7B89 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		5EBDC3BD152DAFAC002F7B89 /* HomeBackGrnd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeBackGrnd.png; sourceTree = "<group>"; };
+		5EBDC3BE152DAFAC002F7B89 /* HomeBackGrnd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeBackGrnd@2x.png"; sourceTree = "<group>"; };
+		5EF19AD61525F424007E8BC2 /* AddTicketView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTicketView.h; sourceTree = "<group>"; };
+		5EF19AD71525F424007E8BC2 /* AddTicketView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTicketView.m; sourceTree = "<group>"; };
+		5EF19AD81525F424007E8BC2 /* AddTicketView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddTicketView.xib; sourceTree = "<group>"; };
+		5EFE7DED152EC27C00D684B8 /* NavBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBar.png; sourceTree = "<group>"; };
+		5EFE7DEE152EC27C00D684B8 /* NavBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavBar@2x.png"; sourceTree = "<group>"; };
+		5EFE7DF2152EC3F800D684B8 /* AddTicNav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddTicNav.png; sourceTree = "<group>"; };
+		5EFE7DF3152EC3F800D684B8 /* AddTicNav@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AddTicNav@2x.png"; sourceTree = "<group>"; };
+		5EFE7DF8152EC5AD00D684B8 /* ticket_details.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ticket_details.png; sourceTree = "<group>"; };
+		5EFE7DFA152EC67F00D684B8 /* SaveBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SaveBtn@2x.png"; sourceTree = "<group>"; };
+		5EFE7DFB152EC67F00D684B8 /* SaveBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SaveBtn.png; sourceTree = "<group>"; };
+		5EFE7E04152EC97700D684B8 /* ViewTict.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ViewTict.png; sourceTree = "<group>"; };
+		5EFE7E05152EC97700D684B8 /* ViewTict@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ViewTict@2x.png"; sourceTree = "<group>"; };
+		5EFE7E08152EC9F700D684B8 /* blue button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue button.png"; sourceTree = "<group>"; };
+		5EFE7E09152EC9F700D684B8 /* blue button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue button@2x.png"; sourceTree = "<group>"; };
+		5EFE7E15152EF66900D684B8 /* CellBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CellBack@2x.png"; sourceTree = "<group>"; };
+		5EFE7E18152EF93E00D684B8 /* CellBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CellBack.png; sourceTree = "<group>"; };
+		5EFE7E1A152F002F00D684B8 /* TicketImageFullView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketImageFullView.h; sourceTree = "<group>"; };
+		5EFE7E1B152F003000D684B8 /* TicketImageFullView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketImageFullView.m; sourceTree = "<group>"; };
+		5EFE7E1C152F003000D684B8 /* TicketImageFullView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TicketImageFullView.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TicketMinder-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TicketMinder-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8E2E781532AFD900BDC75E /* MobileCoreServices.framework in Frameworks */,
+				5EA33DAB152AC88D00DEED44 /* MessageUI.framework in Frameworks */,
+				5E8EFF201529C041005F5650 /* QuartzCore.framework in Frameworks */,
+				5E59E1791527398500FFF98F /* libsqlite3.0.dylib in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5EF19AD51525F3E1007E8BC2 /* BackUpData */,
+				5EF19AD41525F3D7007E8BC2 /* ViewTicket */,
+				5EF19AD31525F3CA007E8BC2 /* AddTicket */,
+				5EF19AD01525EF69007E8BC2 /* HomeScreen */,
+				5EF19AD21525EF75007E8BC2 /* AppDelegate */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TicketMinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				5E59E14B1527379400FFF98F /* database 2 */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TicketMinder_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E322A11153D743200EC7E5B /* images */,
+				5E59E1481527376900FFF98F /* AddTicketDatabase */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* TicketMinder-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E8E2E771532AFD900BDC75E /* MobileCoreServices.framework */,
+				5EA33DAA152AC88D00DEED44 /* MessageUI.framework */,
+				5E59E1781527398500FFF98F /* libsqlite3.0.dylib */,
+				5E8EFF1F1529C041005F5650 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E322A11153D743200EC7E5B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5EA44D061526D7D500112368 /* Images */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		5E59E14B1527379400FFF98F /* database 2 */ = {
+			isa = PBXGroup;
+			children = (
+				5E59E14D1527379400FFF98F /* DAL.h */,
+				5E59E14E1527379400FFF98F /* DAL.m */,
+				5E59E1541527379400FFF98F /* NSString+Extensions.h */,
+				5E59E1551527379400FFF98F /* NSString+Extensions.m */,
+			);
+			path = "database 2";
+			sourceTree = "<group>";
+		};
+		5EA44D061526D7D500112368 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5EB113681545900E00BA54CE /* shareData@2x.png */,
+				5EB113661545900500BA54CE /* shareData.png */,
+				5EB1136415456CAE00BA54CE /* btnAccept.png */,
+				5E916A6A1542AA1F005CB2EA /* closeBtn.png */,
+				5E338CFD153EBF2400BD51D0 /* Icon.png */,
+				5E338CFE153EBF2400BD51D0 /* Icon@2x.png */,
+				5E338CFF153EBF2400BD51D0 /* itunesArtWork */,
+				5E322A1F153D79D800EC7E5B /* change.png */,
+				5E322A20153D79D800EC7E5B /* change@2x.png */,
+				5E322A13153D778200EC7E5B /* backBtn.png */,
+				5E322A14153D778200EC7E5B /* backBtn@2x.png */,
+				5E322A15153D778200EC7E5B /* editBtn.png */,
+				5E322A16153D778200EC7E5B /* editBtn@2x.png */,
+				5E322A17153D778200EC7E5B /* mailBtn.png */,
+				5E322A18153D778200EC7E5B /* mailBtn@2x.png */,
+				5E8E2E731532A61900BDC75E /* ExportDataBtn.png */,
+				5E8E2E741532A61900BDC75E /* ExportDataBtn@2x.png */,
+				5EFE7E18152EF93E00D684B8 /* CellBack.png */,
+				5EFE7E15152EF66900D684B8 /* CellBack@2x.png */,
+				5EFE7E08152EC9F700D684B8 /* blue button.png */,
+				5EFE7E09152EC9F700D684B8 /* blue button@2x.png */,
+				5EFE7E04152EC97700D684B8 /* ViewTict.png */,
+				5EFE7E05152EC97700D684B8 /* ViewTict@2x.png */,
+				5EFE7DFA152EC67F00D684B8 /* SaveBtn@2x.png */,
+				5EFE7DFB152EC67F00D684B8 /* SaveBtn.png */,
+				5EFE7DF8152EC5AD00D684B8 /* ticket_details.png */,
+				5EFE7DF2152EC3F800D684B8 /* AddTicNav.png */,
+				5EFE7DF3152EC3F800D684B8 /* AddTicNav@2x.png */,
+				5EFE7DED152EC27C00D684B8 /* NavBar.png */,
+				5EFE7DEE152EC27C00D684B8 /* NavBar@2x.png */,
+				5E88D4F0152DBFD5008A20A1 /* cameraBack.png */,
+				5E88D4F1152DBFD5008A20A1 /* cameraBack@2x.png */,
+				5E88D4EC152DBB74008A20A1 /* segmentBack.png */,
+				5E88D4ED152DBB74008A20A1 /* segmentBack@2x.png */,
+				5E88D4E9152DBABE008A20A1 /* CheckMark.png */,
+				5EBDC3BD152DAFAC002F7B89 /* HomeBackGrnd.png */,
+				5EBDC3BE152DAFAC002F7B89 /* HomeBackGrnd@2x.png */,
+				5EBDC3BB152D9DE5002F7B89 /* arrow.png */,
+				5EBDC3B7152D97D4002F7B89 /* TicketDtlBack.png */,
+				5EBDC3B8152D97D4002F7B89 /* TicketDtlBack@2x.png */,
+				5EBDC3AF152D94EE002F7B89 /* cameraLeft.png */,
+				5EBDC3B0152D94EE002F7B89 /* cameraLeft@2x.png */,
+				5EBDC3B1152D94EE002F7B89 /* CameraRight.png */,
+				5EBDC3B2152D94EE002F7B89 /* CameraRight@2x.png */,
+				5EBDC3AB152D835C002F7B89 /* SmallBtnBackgrnd.png */,
+				5EBDC3AC152D835C002F7B89 /* SmallBtnBackgrnd@2x.png */,
+				5EBDC3A7152D825E002F7B89 /* BtnBackgroundBig.png */,
+				5EBDC3A8152D825E002F7B89 /* BtnBackgroundBig@2x.png */,
+				5EBDC390152D79E9002F7B89 /* AddTicketBtn.png */,
+				5EBDC391152D79E9002F7B89 /* AddTicketBtn@2x.png */,
+				5EBDC392152D79E9002F7B89 /* ViewTickeBtn.png */,
+				5EBDC393152D79EA002F7B89 /* ViewTickeBtn@2x.png */,
+				5EBDC387152D74BB002F7B89 /* Default.png */,
+				5EBDC388152D74BB002F7B89 /* Default@2x.png */,
+				5EA44D071526D7E900112368 /* Camera.png */,
+			);
+			name = Images;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5EF19AD01525EF69007E8BC2 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5EB1136215455AEA00BA54CE /* Terms & Conditions.pdf */,
+				5E916A701542AD0A005CB2EA /* Terms & Conditions.doc */,
+				5E916A5C1542A7A3005CB2EA /* Dialog.h */,
+				5E916A5D1542A7A3005CB2EA /* Dialog.m */,
+				28D7ACF60DDB3853001CB0EB /* TicketMinderViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* TicketMinderViewController.m */,
+				2899E5210DE3E06400AC0155 /* TicketMinderViewController.xib */,
+			);
+			name = HomeScreen;
+			sourceTree = "<group>";
+		};
+		5EF19AD21525EF75007E8BC2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* TicketMinderAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TicketMinderAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		5EF19AD31525F3CA007E8BC2 /* AddTicket */ = {
+			isa = PBXGroup;
+			children = (
+				5EF19AD61525F424007E8BC2 /* AddTicketView.h */,
+				5EF19AD71525F424007E8BC2 /* AddTicketView.m */,
+				5EF19AD81525F424007E8BC2 /* AddTicketView.xib */,
+			);
+			name = AddTicket;
+			sourceTree = "<group>";
+		};
+		5EF19AD41525F3D7007E8BC2 /* ViewTicket */ = {
+			isa = PBXGroup;
+			children = (
+				5EA44CFB1526C95300112368 /* ViewTicket.h */,
+				5EA44CFC1526C95300112368 /* ViewTicket.m */,
+				5EA44CFD1526C95300112368 /* ViewTicket.xib */,
+				5E9EB0F5152C4D0000C210C1 /* TicketDetailView.h */,
+				5E9EB0F6152C4D0100C210C1 /* TicketDetailView.m */,
+				5E9EB0F7152C4D0100C210C1 /* TicketDetailView.xib */,
+				5EFE7E1A152F002F00D684B8 /* TicketImageFullView.h */,
+				5EFE7E1B152F003000D684B8 /* TicketImageFullView.m */,
+				5EFE7E1C152F003000D684B8 /* TicketImageFullView.xib */,
+			);
+			name = ViewTicket;
+			sourceTree = "<group>";
+		};
+		5EF19AD51525F3E1007E8BC2 /* BackUpData */ = {
+			isa = PBXGroup;
+			children = (
+				5EA44D011526C96600112368 /* BackUpData.h */,
+				5EA44D021526C96600112368 /* BackUpData.m */,
+				5EA44D031526C96600112368 /* BackUpData.xib */,
+			);
+			name = BackUpData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TicketMinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TicketMinder" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicketMinder;
+			productName = TicketMinder;
+			productReference = 1D6058910D05DD3D006BFB54 /* TicketMinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TicketMinder" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TicketMinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* TicketMinderViewController.xib in Resources */,
+				5EF19ADA1525F424007E8BC2 /* AddTicketView.xib in Resources */,
+				5EA44CFF1526C95300112368 /* ViewTicket.xib in Resources */,
+				5EA44D051526C96600112368 /* BackUpData.xib in Resources */,
+				5EA44D081526D7E900112368 /* Camera.png in Resources */,
+				5E59E1491527376900FFF98F /* AddTicketDatabase in Resources */,
+				5E9EB0F9152C4D0100C210C1 /* TicketDetailView.xib in Resources */,
+				5EBDC389152D74BB002F7B89 /* Default.png in Resources */,
+				5EBDC38A152D74BB002F7B89 /* Default@2x.png in Resources */,
+				5EBDC394152D79EA002F7B89 /* AddTicketBtn.png in Resources */,
+				5EBDC395152D79EA002F7B89 /* AddTicketBtn@2x.png in Resources */,
+				5EBDC396152D79EA002F7B89 /* ViewTickeBtn.png in Resources */,
+				5EBDC397152D79EA002F7B89 /* ViewTickeBtn@2x.png in Resources */,
+				5EBDC3A9152D825E002F7B89 /* BtnBackgroundBig.png in Resources */,
+				5EBDC3AA152D825E002F7B89 /* BtnBackgroundBig@2x.png in Resources */,
+				5EBDC3AD152D835C002F7B89 /* SmallBtnBackgrnd.png in Resources */,
+				5EBDC3AE152D835C002F7B89 /* SmallBtnBackgrnd@2x.png in Resources */,
+				5EBDC3B3152D94EE002F7B89 /* cameraLeft.png in Resources */,
+				5EBDC3B4152D94EE002F7B89 /* cameraLeft@2x.png in Resources */,
+				5EBDC3B5152D94EE002F7B89 /* CameraRight.png in Resources */,
+				5EBDC3B6152D94EE002F7B89 /* CameraRight@2x.png in Resources */,
+				5EBDC3B9152D97D4002F7B89 /* TicketDtlBack.png in Resources */,
+				5EBDC3BA152D97D4002F7B89 /* TicketDtlBack@2x.png in Resources */,
+				5EBDC3BC152D9DE5002F7B89 /* arrow.png in Resources */,
+				5EBDC3BF152DAFAC002F7B89 /* HomeBackGrnd.png in Resources */,
+				5EBDC3C0152DAFAC002F7B89 /* HomeBackGrnd@2x.png in Resources */,
+				5E88D4EA152DBABE008A20A1 /* CheckMark.png in Resources */,
+				5E88D4EE152DBB74008A20A1 /* segmentBack.png in Resources */,
+				5E88D4EF152DBB74008A20A1 /* segmentBack@2x.png in Resources */,
+				5E88D4F2152DBFD5008A20A1 /* cameraBack.png in Resources */,
+				5E88D4F3152DBFD5008A20A1 /* cameraBack@2x.png in Resources */,
+				5EFE7DEF152EC27C00D684B8 /* NavBar.png in Resources */,
+				5EFE7DF0152EC27C00D684B8 /* NavBar@2x.png in Resources */,
+				5EFE7DF4152EC3F800D684B8 /* AddTicNav.png in Resources */,
+				5EFE7DF5152EC3F800D684B8 /* AddTicNav@2x.png in Resources */,
+				5EFE7DF9152EC5AD00D684B8 /* ticket_details.png in Resources */,
+				5EFE7DFC152EC67F00D684B8 /* SaveBtn@2x.png in Resources */,
+				5EFE7DFD152EC67F00D684B8 /* SaveBtn.png in Resources */,
+				5EFE7E06152EC97700D684B8 /* ViewTict.png in Resources */,
+				5EFE7E07152EC97700D684B8 /* ViewTict@2x.png in Resources */,
+				5EFE7E0A152EC9F700D684B8 /* blue button.png in Resources */,
+				5EFE7E0B152EC9F700D684B8 /* blue button@2x.png in Resources */,
+				5EFE7E17152EF66900D684B8 /* CellBack@2x.png in Resources */,
+				5EFE7E19152EF93E00D684B8 /* CellBack.png in Resources */,
+				5EFE7E1E152F003000D684B8 /* TicketImageFullView.xib in Resources */,
+				5E8E2E751532A61900BDC75E /* ExportDataBtn.png in Resources */,
+				5E8E2E761532A61900BDC75E /* ExportDataBtn@2x.png in Resources */,
+				5E322A19153D778200EC7E5B /* backBtn.png in Resources */,
+				5E322A1A153D778200EC7E5B /* backBtn@2x.png in Resources */,
+				5E322A1B153D778200EC7E5B /* editBtn.png in Resources */,
+				5E322A1C153D778200EC7E5B /* editBtn@2x.png in Resources */,
+				5E322A1D153D778200EC7E5B /* mailBtn.png in Resources */,
+				5E322A1E153D778200EC7E5B /* mailBtn@2x.png in Resources */,
+				5E322A21153D79D800EC7E5B /* change.png in Resources */,
+				5E322A22153D79D800EC7E5B /* change@2x.png in Resources */,
+				5E338D00153EBF2400BD51D0 /* Icon.png in Resources */,
+				5E338D01153EBF2400BD51D0 /* Icon@2x.png in Resources */,
+				5E338D02153EBF2400BD51D0 /* itunesArtWork in Resources */,
+				5E916A6B1542AA1F005CB2EA /* closeBtn.png in Resources */,
+				5E916A711542AD0A005CB2EA /* Terms & Conditions.doc in Resources */,
+				5EB1136315455AEA00BA54CE /* Terms & Conditions.pdf in Resources */,
+				5EB1136515456CAE00BA54CE /* btnAccept.png in Resources */,
+				5EB113671545900500BA54CE /* shareData.png in Resources */,
+				5EB113691545900E00BA54CE /* shareData@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TicketMinderAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* TicketMinderViewController.m in Sources */,
+				5EF19AD91525F424007E8BC2 /* AddTicketView.m in Sources */,
+				5EA44CFE1526C95300112368 /* ViewTicket.m in Sources */,
+				5EA44D041526C96600112368 /* BackUpData.m in Sources */,
+				5E59E1681527379500FFF98F /* DAL.m in Sources */,
+				5E59E16C1527379500FFF98F /* NSString+Extensions.m in Sources */,
+				5E9EB0F8152C4D0100C210C1 /* TicketDetailView.m in Sources */,
+				5EFE7E1D152F003000D684B8 /* TicketImageFullView.m in Sources */,
+				5E916A5E1542A7A3005CB2EA /* Dialog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jayneel Patel (89F44PYPKM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jayneel Patel (89F44PYPKM)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TicketMinder_Prefix.pch;
+				INFOPLIST_FILE = "TicketMinder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = TicketMinder;
+				PROVISIONING_PROFILE = "A4C173B9-B3DB-4197-9D55-D59F29F42BDA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A4C173B9-B3DB-4197-9D55-D59F29F42BDA";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jayneel Patel (89F44PYPKM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jayneel Patel (89F44PYPKM)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TicketMinder_Prefix.pch;
+				INFOPLIST_FILE = "TicketMinder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = TicketMinder;
+				PROVISIONING_PROFILE = "A4C173B9-B3DB-4197-9D55-D59F29F42BDA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A4C173B9-B3DB-4197-9D55-D59F29F42BDA";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jayneel Patel (89F44PYPKM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jayneel Patel (89F44PYPKM)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "244DB2EF-A7F9-4419-B4E1-15D22D37B378";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "244DB2EF-A7F9-4419-B4E1-15D22D37B378";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jayneel Patel (89F44PYPKM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jayneel Patel (89F44PYPKM)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "244DB2EF-A7F9-4419-B4E1-15D22D37B378";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "244DB2EF-A7F9-4419-B4E1-15D22D37B378";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TicketMinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TicketMinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
